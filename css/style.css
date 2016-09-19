@@ -1,20 +1,58 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
-nav {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body #landingpage {
+  width: 100%;
+  height: 600px;
+  background-color: #575757;
+}
+
+body #landingpage nav {
   text-align: center;
+  z-index: 1;
 }
 
-nav ul {
+body #landingpage nav ul {
   list-style: none;
+  margin: 0;
+  padding-top: 15px;
 }
 
-nav ul li {
+body #landingpage nav ul li {
   font-size: 16px;
   font-variant: small-caps;
   font-family: 'Roboto';
   display: inline-block;
+  margin-right: 20px;
 }
 
-nav ul li a {
+body #landingpage nav ul li a {
   text-decoration: none;
-  color: #575757;
+  color: #000;
+}
+
+body #landingpage #landing-box {
+  width: 120px;
+  height: 40px;
+  background-color: #e67e22;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+body #landingpage #landing-box #landing-box-text {
+  font-family: 'Roboto';
+  font-variant: small-caps;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 9px;
+  text-aligne: center;
+}
+
+#backgroundsupergirl {
+  background-image: url("img/supergirl.jpg");
+  background-image: cover;
 }
