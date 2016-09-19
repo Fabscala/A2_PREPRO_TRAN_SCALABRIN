@@ -44,3 +44,12 @@ body #landingpage #landing-link #landing-link-text {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
 }
+body .serie-section {
+  width: 100%;
+  height: auto;
+}
+body .serie-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
