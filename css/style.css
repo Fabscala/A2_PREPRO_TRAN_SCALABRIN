@@ -1,9 +1,17 @@
-.maClasse {
-  margin-top: 10px;
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+nav {
+  text-align: center;
 }
-.maClasse nav {
-  background-color: #000;
+nav ul {
+  list-style: none;
 }
-.maClasse nav input {
-  padding: 10px;
+nav ul li {
+  font-size: 16px;
+  font-variant: small-caps;
+  font-family: 'Roboto';
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
 }

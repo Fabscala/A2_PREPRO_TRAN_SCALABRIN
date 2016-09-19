@@ -1,11 +1,23 @@
-.maClasse {
-	margin-top:10px;
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
 
-		nav{
-			background-color:#000;
+nav {
+	text-align:center;
 
-				input {
-				padding:10px;
-				}
+	ul {
+		list-style:none;
+
+		li{
+			font-size:16px;
+			font-variant: small-caps;
+			font-family: 'Roboto';
+			display:inline-block;
+
+			a{
+				text-decoration:none;
+				color:#575757;
+			}
+
 		}
+
+	}
 }
