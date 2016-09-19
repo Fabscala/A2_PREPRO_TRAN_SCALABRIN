@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 body {
   margin: 0;
@@ -9,22 +10,41 @@ body #landingpage {
   background-color: #575757;
 }
 body #landingpage nav {
+=======
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+nav {
+>>>>>>> caea5aa02a83366fbebbaf447413798a6f86dd98
   text-align: center;
   z-index: 1;
 }
+<<<<<<< HEAD
 body #landingpage nav ul {
+=======
+
+nav ul {
+>>>>>>> caea5aa02a83366fbebbaf447413798a6f86dd98
   list-style: none;
   margin: 0;
   padding-top: 15px;
 }
+<<<<<<< HEAD
 body #landingpage nav ul li {
+=======
+
+nav ul li {
+>>>>>>> caea5aa02a83366fbebbaf447413798a6f86dd98
   font-size: 16px;
   font-variant: small-caps;
   font-family: 'Roboto';
   display: inline-block;
   margin-right: 20px;
 }
+<<<<<<< HEAD
 body #landingpage nav ul li a {
+=======
+
+nav ul li a {
+>>>>>>> caea5aa02a83366fbebbaf447413798a6f86dd98
   text-decoration: none;
   color: #000;
 }
