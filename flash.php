@@ -22,7 +22,7 @@
 
 
                      <div id="landing-link" class="flash-link-width">
-                            <a href="#arrow">
+                            <a href="#flash-synopsis">
                                    <p id="landing-link-text">decouvrir flash <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
                             </a>
                      </div>
