@@ -36,7 +36,26 @@ body h1 {
   position: absolute;
   top: 25%;
 }
+<<<<<<< HEAD
 
+=======
+body h2 {
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 70px;
+}
+body .rondperso {
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+>>>>>>> 2751600d7aefa7773c26ba7eee9e5f7b3c2c023b
 body #arrow-landing {
   width: 100%;
   height: 600px;
@@ -48,6 +67,24 @@ body #arrow-landing {
 body #arrow-landing #arrow-title {
   width: 500px;
   margin: 0 auto;
+}
+body #arrow-synopsis {
+  padding: 0 100px;
+  margin-bottom: 70px;
+}
+body #arrow-synopsis p {
+  margin-top: 60px;
+  font-family: Roboto;
+  font-size: 15px;
+}
+body #arrow-characters {
+  background-color: #dddddd;
+  padding: 0 100px;
+}
+body #arrow-characters #characters {
+  width: 100px;
+  display: inline-block;
+  margin: 0 128px;
 }
 
 body #supergirl-landing {
