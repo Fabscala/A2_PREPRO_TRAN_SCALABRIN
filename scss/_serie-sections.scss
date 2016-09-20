@@ -219,7 +219,7 @@ body{
     #flash-landing{
 	width:100%;
 	height: 600px;
-	background-image: url('../img/flash-landing.png');
+	background-image: url('../img/img_flash/flash-landing.png');
 	background-size:cover;
 	position:relative;
 
@@ -227,9 +227,15 @@ body{
 			width:500px;
 			margin-left: 280px;
 		}
+
+		.flash-link-width{
+			width:117px;
+		}
 	}
 
 		#flash-synopsis{
+		background-image: url('../img/img_flash/flash-syno-bg.png');
+		background-size:cover;
 		padding:100px;
 
 		  p{
