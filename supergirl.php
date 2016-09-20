@@ -21,9 +21,9 @@
 
 
 
-                     <div id="landing-link">
-                            <a href="#arrow">
-                                   <p id="landing-link-text">voir les series <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                     <div id="landing-link" class="supergirl-link-width">
+                            <a href="#supergirl-synopsis">
+                                   <p id="landing-link-text">decouvrir supergirl<br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
                             </a>
                      </div>
 
@@ -55,13 +55,13 @@
               <div id="characters">
                      <div class="rondperso" style="background:url(img/img_supergirl/alexandra.png) no-repeat 0px 0px;">
                      </div>
-                     <div class="character-name">Alexandra « Alex » Danvers</div>
+                     <div class="character-name">Alexandra Danvers</div>
               </div>
 
               <div id="characters">
                      <div class="rondperso" style="background:url(img/img_supergirl/winn.png) no-repeat 0px 0px;">
                      </div>
-                     <div class="character-name">Winslow « Winn » Schott</div>
+                     <div class="character-name">Winslow Schott</div>
               </div>
 
               <div id="characters">

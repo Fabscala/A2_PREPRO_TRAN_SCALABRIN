@@ -37,7 +37,7 @@ body{
 	#arrow-landing{
 		width:100%;
 		height: 600px;
-		background-image: url('../img/arrow-landing.png');
+		background-image: url('../img/arrow/arrow-landing.png');
 		background-size:cover;
 		position:relative;
 
@@ -52,7 +52,7 @@ body{
 	}
 
 	#arrow-synopsis{
-		background-image: url('../img/arrow-syno-bg.png');
+		background-image: url('../img/arrow/arrow-syno-bg.png');
 		background-size:cover;
 		padding:100px;
 
@@ -176,12 +176,18 @@ body{
 	position:relative;
 
 		#supergirl-title {
-			width:500px;
-			margin-left: 250px;
+			width:720px;
+			margin:0 auto;
+		}
+
+		.supergirl-link-width{
+			width:141px;
 		}
 	}
 
 		#supergirl-synopsis{
+		background-image:url('../img/img_supergirl/supergirl-syno-bg.png');
+		background-size:cover;
 		padding:100px;
 
 		  p{

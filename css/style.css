@@ -59,7 +59,7 @@ body .rondperso {
 body #arrow-landing {
   width: 100%;
   height: 600px;
-  background-image: url("../img/arrow-landing.png");
+  background-image: url("../img/arrow/arrow-landing.png");
   background-size: cover;
   position: relative;
 }
@@ -74,7 +74,7 @@ body #arrow-landing .arrow-link-width {
 }
 
 body #arrow-synopsis {
-  background-image: url("../img/arrow-syno-bg.png");
+  background-image: url("../img/arrow/arrow-syno-bg.png");
   background-size: cover;
   padding: 100px;
 }
@@ -190,11 +190,17 @@ body #supergirl-landing {
 }
 
 body #supergirl-landing #supergirl-title {
-  width: 500px;
-  margin-left: 250px;
+  width: 720px;
+  margin: 0 auto;
+}
+
+body #supergirl-landing .supergirl-link-width {
+  width: 141px;
 }
 
 body #supergirl-synopsis {
+  background-image: url("../img/img_supergirl/supergirl-syno-bg.png");
+  background-size: cover;
   padding: 100px;
 }
 
@@ -277,6 +283,10 @@ body #landingpage #cw-logo {
 
 body #landingpage #cw-logo img {
   width: 400px;
+}
+
+body .landing-link-width {
+  width: 103px;
 }
 
 body #landing-link {
