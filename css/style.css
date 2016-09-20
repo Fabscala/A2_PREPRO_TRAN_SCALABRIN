@@ -164,8 +164,8 @@ body #supergirl-landing {
   position: relative;
 }
 body #supergirl-landing #supergirl-title {
-  width: 500px;
-  margin-left: 250px;
+  width: 720px;
+  margin: 0 auto;
 }
 body #supergirl-landing .supergirl-link-width {
   width: 141px;
