@@ -21,7 +21,7 @@
 
 
 
-			<div id="landing-link">
+			<div id="landing-link" class="arrow-link-width">
 				<a href="#arrow-synopsis">
 					<p id="landing-link-text">decouvrir arrow <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 				</a>

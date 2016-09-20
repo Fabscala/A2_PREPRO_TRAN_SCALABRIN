@@ -37,9 +37,7 @@ body{
 	}
 
 	#landing-link {
-			position:absolute;
-			bottom:30px;
-			left: 46%;
+			margin:0 auto;
 
 				#landing-link-text{
 					font-family:'Roboto';
@@ -47,6 +45,8 @@ body{
 					font-size:15px;
 					color: #FFF;
 					text-align:center;
+					position:absolute;
+					bottom:30px;
 				}
 
 		}

@@ -69,6 +69,10 @@ body #arrow-landing #arrow-title {
   margin: 0 auto;
 }
 
+body #arrow-landing .arrow-link-width {
+  width: 122px;
+}
+
 body #arrow-synopsis {
   background-image: url("../img/arrow-syno-bg.png");
   background-size: cover;
@@ -98,6 +102,83 @@ body #arrow-characters #characters .character-name {
   font-weight: 500;
   text-align: center;
   margin-top: 10px;
+}
+
+body #lot-landing {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/lot/lot-landing.png");
+  background-size: cover;
+  position: relative;
+}
+
+body #lot-landing #lot-title {
+  width: 721px;
+  margin: 0 auto;
+}
+
+body #lot-landing #lot-title h1 {
+  font-family: Roboto;
+  font-size: 90px;
+  font-variant: small-caps;
+  font-weight: 400;
+  color: #FFF;
+  letter-spacing: 23px;
+  opacity: 0.8;
+  position: absolute;
+  top: 18%;
+}
+
+body #lot-landing #lot-title .h1-bis {
+  top: 25%;
+  font-family: Roboto;
+  font-size: 110px;
+  font-variant: small-caps;
+  font-weight: 400;
+  color: #FFF;
+  letter-spacing: 23px;
+  opacity: 0.8;
+  position: absolute;
+}
+
+body #lot-landing .lot-link-width {
+  width: 232px;
+}
+
+body #lot-synopsis {
+  background-image: url("../img/lot/lot-syno-bg.png");
+  background-size: cover;
+  padding: 100px;
+}
+
+body #lot-synopsis p {
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 0;
+}
+
+body #lot-characters {
+  background-color: #fff;
+  padding: 100px;
+}
+
+body #lot-characters #characters {
+  width: 100px;
+  display: inline-block;
+  margin: 0 128px 25px 128px;
+}
+
+body #lot-characters #characters .character-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body #lot-characters .center-character {
+  display: block !important;
+  margin: 0 auto !important;
 }
 
 body #supergirl-landing {
@@ -199,9 +280,7 @@ body #landingpage #cw-logo img {
 }
 
 body #landing-link {
-  position: absolute;
-  bottom: 30px;
-  left: 46%;
+  margin: 0 auto;
 }
 
 body #landing-link #landing-link-text {
@@ -210,6 +289,8 @@ body #landing-link #landing-link-text {
   font-size: 15px;
   color: #FFF;
   text-align: center;
+  position: absolute;
+  bottom: 30px;
 }
 
 body .serie-section-index {
