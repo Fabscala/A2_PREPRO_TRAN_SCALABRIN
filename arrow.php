@@ -22,8 +22,8 @@
 
 
 			<div id="landing-link">
-				<a href="#arrow">
-					<p id="landing-link-text">voir les series <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+				<a href="#arrow-synopsis">
+					<p id="landing-link-text">decouvrir arrow <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 				</a>
 			</div>
 
