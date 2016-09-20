@@ -39,6 +39,66 @@
               </p>
        </div>
 
+              <div id="flash-characters">
+              <h2>personnages</h2>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/barry.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Barry Allen</div>
+              </div>
+       
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/iris.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Iris West</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/cait.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Caitlin Snow</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/cisco.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Francisco Ramon</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/harry.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Harrison Wells</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/joe.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Joe West</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/wally.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Wally West</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/eddy.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Eddie Thawne</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_flash/henry.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Henry Allen</div>
+              </div>
+                     
+
+       </div>
+
 
 
 
