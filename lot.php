@@ -11,19 +11,20 @@
 <body>
 		
 	<header>
-		<div id="arrow-landing">
+		<div id="lot-landing">
 
 			<?php include ('navbar.php'); ?>
 
-			<div id="arrow-title">
-				<h1>arrow</h1>
+			<div id="lot-title">
+				<h1>legend's of</h1>
+				<h1 class="h1-bis">tomorrow</h1>
 			</div>
 
 
 
-			<div id="landing-link" class="arrow-link-width">
-				<a href="#arrow-synopsis">
-					<p id="landing-link-text">decouvrir arrow <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+			<div id="landing-link" class="lot-link-width">
+				<a href="#lot-synopsis">
+					<p id="landing-link-text">decouvrir legend's of tomorrow <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 				</a>
 			</div>
 
@@ -31,11 +32,9 @@
 
 	</header>
 
-	<div id="arrow-synopsis">
+	<div id="lot-synopsis">
 		<h2>synopsis</h2>
-		<p>Après un violent naufrage, le milliardaire Oliver Queen, playboy, porté disparu et présumé mort depuis cinq ans, est découvert vivant sur une île isolée dans le Pacifique. Quand il rentre chez lui, à Starling City, sa mère dévouée Moira, sa sœur bien-aimée Théa et son meilleur ami Tommy l'accueillent chez lui, mais ils sentent qu'Oliver a changé. Alors qu'Oliver cache la vérité sur l'homme qu'il est devenu, il cherche désespérément à faire amende honorable pour les actions passées de son père et tente de se réconcilier avec son ex-petite amie, Laurel Lance.<br><br>
-
-		Il crée alors secrètement le personnage de l’Archer qui va réparer les torts de sa famille, lutter contre les maux de la société et redonner à la ville de Starling son ancienne gloire. En tant qu'héritier de la multinationale Queen Consolidated, Oliver joue également le rôle d'un coureur de jupons riche, insouciant et négligeant afin de cacher son identité secrète. Cependant, le père de Laurel, l'inspecteur Quentin Lance, est déterminé à arrêter le justicier dans sa ville. Dans les épisodes il sera aidé de Felicity une informaticienne et de John Diggle qui faisait partie de l'armée.
+		<p>Après avoir vu le futur, Rip Hunter, un Maître du temps du 22ème siècle, décide - contre l'avis de son Conseil - de stopper le tyran immortel qui fera basculer le monde dans le chaos. Pour accomplir sa mission, il constitue une équipe d'élite qui l'aidera à traquer le méchant à travers le temps et arrêter sa montée au pouvoir. The A.T.O.M., Captain Cold, Heat Wave, White Canary, Firestorm, Hawkgirl et Hawkman saisissent cette opportunité de prendre en mains leur destinée. Parviendront-il à sauver l'Humanité et marquer l'Histoire en devenant les légendes de demain ?
 		</p>
 	</div>
 
