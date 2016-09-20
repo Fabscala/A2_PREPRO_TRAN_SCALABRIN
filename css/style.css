@@ -123,6 +123,25 @@ body #supergirl-synopsis p {
   margin: 0;
 }
 
+body #supergirl-characters {
+  background-color: #fff;
+  padding: 100px;
+}
+
+body #supergirl-characters #characters {
+  width: 100px;
+  display: inline-block;
+  margin: 0 128px 25px 128px;
+}
+
+body #supergirl-characters #characters .character-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
 body #flash-landing {
   width: 100%;
   height: 600px;
