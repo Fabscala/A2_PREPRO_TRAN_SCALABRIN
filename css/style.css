@@ -167,6 +167,9 @@ body #supergirl-landing #supergirl-title {
   width: 500px;
   margin-left: 250px;
 }
+body #supergirl-landing .supergirl-link-width {
+  width: 141px;
+}
 body #supergirl-synopsis {
   padding: 100px;
 }
