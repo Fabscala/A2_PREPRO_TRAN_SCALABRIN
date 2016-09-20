@@ -1,0 +1,27 @@
+nav {
+			position: absolute;
+		    text-align: center;
+		    z-index: 1;
+		    left: 27%;
+		    margin-top: 30px;
+
+			ul {
+				list-style:none;
+				margin:0;
+
+				li{
+					font-size:16px;
+					font-variant: small-caps;
+					font-family: 'Roboto';
+					display:inline-block;
+					margin-right: 20px;
+
+					a{
+						text-decoration:none;
+						color:#FFF;
+					}
+
+				}
+
+			}
+		}

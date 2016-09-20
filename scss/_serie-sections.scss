@@ -1,0 +1,27 @@
+body{
+
+	h1{
+	    font-family: Roboto;
+	    font-size: 100px;
+	    font-variant: small-caps;
+	    font-weight: 400;
+	    color: #FFF;
+	    letter-spacing: 35px;
+	    opacity:0.8;
+	    position:absolute;
+	    top:25%;
+	}
+
+	#arrow-landing{
+		width:100%;
+		height: 600px;
+		background-image: url('../img/arrow-landing.png');
+		background-size:cover;
+		position:relative;
+
+		#arrow-title {
+			width:500px;
+			margin: 0 auto;
+		}
+	}
+}

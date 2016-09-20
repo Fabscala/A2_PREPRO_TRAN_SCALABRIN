@@ -13,15 +13,7 @@
 	<header>
 		<div id="landingpage">
 
-			<nav class="navbar">
-				<ul>
-					<li><a href="">accueil</a></li>
-					<li><a href="">arrow</a></li>
-					<li><a href="">the flash</a></li>
-					<li><a href="">legends of tomorrow</a></li>
-					<li><a href="supergirl.html">supergirl</a></li>
-				</ul>
-			</nav>
+			<?php include ('navbar.php'); ?>
 
 			<video autoplay loop id="bg-video">
 				<source src="img/bg.mp4" type="video/mp4">
@@ -39,19 +31,19 @@
 
 		</div>
 
-		<div id="arrow" class="serie-section">
+		<div id="arrow" class="serie-section-index">
 			<a href="arrow.html"><img src="img/arrow-index.png" alt=""></a>
 		</div>
 
-		<div class="serie-section">
+		<div class="serie-section-index">
 			<a href="flash.html"><img src="img/flash-index.png" alt=""></a>
 		</div>
 
-		<div class="serie-section">
+		<div class="serie-section-index">
 			<a href="lot.html"><img src="img/lot-index.png" alt=""></a>
 		</div>
 
-		<div class="serie-section">
+		<div class="serie-section-index">
 			<a href="supergirl.html"><img src="img/supergirl-index.png" alt=""></a>
 		</div>
 
