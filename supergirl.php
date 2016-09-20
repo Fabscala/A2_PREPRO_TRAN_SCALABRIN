@@ -37,7 +37,44 @@
                    </p>
          </div>
 
+       <div id="supergirl-characters">
+              <h2>personnages</h2>
 
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_supergirl/supergirl.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Kara Danvers</div>
+              </div>
+       
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_supergirl/jimmy.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Jimmy Olsen</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_supergirl/alexandra.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Alexandra « Alex » Danvers</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_supergirl/winn.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Winslow « Winn » Schott</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_supergirl/hank.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Hank Henshaw</div>
+              </div>
+
+              <div id="characters">
+                     <div class="rondperso" style="background:url(img/img_supergirl/cat.png) no-repeat 0px 0px;">
+                     </div>
+                     <div class="character-name">Cat Grant</div>
+              </div>
 
 
 
