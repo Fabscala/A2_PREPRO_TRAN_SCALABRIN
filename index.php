@@ -23,7 +23,7 @@
 				<img src="img/cw-logo.png">
 			</div>
 
-			<div id="landing-link">
+			<div id="landing-link" class="landing-link-width">
 				<a href="#arrow">
 					<p id="landing-link-text">voir les series <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 				</a>
@@ -32,19 +32,19 @@
 		</div>
 
 		<div id="arrow" class="serie-section-index">
-			<a href="arrow.html"><img src="img/arrow-index.png" alt=""></a>
+			<a href="arrow.php"><img src="img/arrow/arrow-index.png" alt=""></a>
 		</div>
 
 		<div class="serie-section-index">
-			<a href="flash.html"><img src="img/flash-index.png" alt=""></a>
+			<a href="flash.php"><img src="img/flash-index.png" alt=""></a>
 		</div>
 
 		<div class="serie-section-index">
-			<a href="lot.html"><img src="img/lot-index.png" alt=""></a>
+			<a href="lot.php"><img src="img/lot/lot-index.png" alt=""></a>
 		</div>
 
 		<div class="serie-section-index">
-			<a href="supergirl.html"><img src="img/supergirl-index.png" alt=""></a>
+			<a href="supergirl.php"><img src="img/img_supergirl/supergirl-index.png" alt=""></a>
 		</div>
 
 	</header>
