@@ -89,7 +89,7 @@ body{
 	#lot-landing{
 		width:100%;
 		height: 600px;
-		background-image: url('../img/lot-landing.png');
+		background-image: url('../img/lot/lot-landing.png');
 		background-size:cover;
 		position:relative;
 
@@ -128,7 +128,7 @@ body{
 	}
 
 	#lot-synopsis{
-		background-image: url('../img/lot-syno-bg.png');
+		background-image: url('../img/lot/lot-syno-bg.png');
 		background-size:cover;
 		padding:100px;
 
@@ -156,6 +156,11 @@ body{
 				margin-top:10px;
 			}
 		}
+
+		.center-character{
+			display:block !important;
+			margin:0 auto !important;
+		}
 	}
 
 
@@ -176,6 +181,16 @@ body{
 		}
 	}
 
+		#supergirl-synopsis{
+		padding:100px;
+
+		  p{
+			font-family:Roboto;
+			font-size:15px;
+			margin:0;
+		}
+	}
+
     #flash-landing{
 	width:100%;
 	height: 600px;
@@ -186,6 +201,16 @@ body{
 		#flash-title {
 			width:500px;
 			margin-left: 280px;
+		}
+	}
+
+		#flash-synopsis{
+		padding:100px;
+
+		  p{
+			font-family:Roboto;
+			font-size:15px;
+			margin:0;
 		}
 	}
 }

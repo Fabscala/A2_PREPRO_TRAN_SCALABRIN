@@ -38,61 +38,67 @@
 		</p>
 	</div>
 
-	<div id="arrow-characters">
+	<div id="lot-characters">
 		<h2>personnages</h2>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/oliver.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/rip.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Oliver Queen</div>
+			<div class="character-name">Rip Hunter</div>
 		</div>
 	
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/diggle.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/ray.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">John Diggle</div>
+			<div class="character-name">Ray Palmer</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/felicity.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/leonard.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Felicity Smoak</div>
+			<div class="character-name">Leonard Snart</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/thea.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/mick.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Thea Queen</div>
+			<div class="character-name">Mick Rory</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/laurel.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/sara.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Laurel Lance</div>
+			<div class="character-name">Sara Lance</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/roy.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/kendra.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Roy Harper</div>
+			<div class="character-name">Kendra Saunders</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/lance.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/carter.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Quentin Lance</div>
+			<div class="character-name">Carter Hall</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/malcolm.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/martin.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Malcolm Merlyn</div>
+			<div class="character-name">Martin Stein</div>
 		</div>
 
 		<div id="characters">
-			<div class="rondperso" style="background:url(img/curtis.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/lot/jefferson.png) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Curtis Holt</div>
+			<div class="character-name">Jefferson Jackson</div>
+		</div>
+
+		<div id="characters" class="center-character">
+			<div class="rondperso" style="background:url(img/lot/vandal.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Vandal Savage</div>
 		</div>
 			
 
