@@ -11,19 +11,38 @@ body a {
 body #landingpage {
   width: 100%;
   height: 600px;
-  background-color: #575757;
+  background-image: url("../img/landing-bg.png");
+  background-size: cover;
   position: relative;
 }
 
+body #landingpage #bg-video {
+  position: absolute;
+  width: 100%;
+  z-index: -100;
+}
+
+body #landingpage #cw-logo {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+body #landingpage #cw-logo img {
+  width: 400px;
+}
+
 body #landingpage nav {
+  position: absolute;
   text-align: center;
   z-index: 1;
+  left: 27%;
+  margin-top: 30px;
 }
 
 body #landingpage nav ul {
   list-style: none;
   margin: 0;
-  padding-top: 15px;
 }
 
 body #landingpage nav ul li {
@@ -36,24 +55,36 @@ body #landingpage nav ul li {
 
 body #landingpage nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #FFF;
 }
 
 body #landingpage #landing-link {
   position: absolute;
   bottom: 30px;
-  left: 48%;
+  left: 46%;
 }
 
 body #landingpage #landing-link #landing-link-text {
   font-family: 'Roboto';
   font-variant: small-caps;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #FFF;
   text-align: center;
 }
 
+body .serie-section {
+  width: 100%;
+  height: auto;
+}
+
+body .serie-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 #backgroundsupergirl {
-  background-image: url("img/supergirl.jpg");
-  background-image: cover;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
 }
