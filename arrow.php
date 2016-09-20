@@ -31,6 +31,47 @@
 
 	</header>
 
+	<div id="arrow-synopsis">
+		<h2>synopsis</h2>
+		<p>Après un violent naufrage, le milliardaire Oliver Queen, playboy, porté disparu et présumé mort depuis cinq ans, est découvert vivant sur une île isolée dans le Pacifique. Quand il rentre chez lui, à Starling City, sa mère dévouée Moira, sa sœur bien-aimée Théa et son meilleur ami Tommy l'accueillent chez lui, mais ils sentent qu'Oliver a changé. Alors qu'Oliver cache la vérité sur l'homme qu'il est devenu, il cherche désespérément à faire amende honorable pour les actions passées de son père et tente de se réconcilier avec son ex-petite amie, Laurel Lance.<br><br>
+
+		Il crée alors secrètement le personnage de l’Archer qui va réparer les torts de sa famille, lutter contre les maux de la société et redonner à la ville de Starling son ancienne gloire. En tant qu'héritier de la multinationale Queen Consolidated, Oliver joue également le rôle d'un coureur de jupons riche, insouciant et négligeant afin de cacher son identité secrète. Cependant, le père de Laurel, l'inspecteur Quentin Lance, est déterminé à arrêter le justicier dans sa ville. Dans les épisodes il sera aidé de Felicity une informaticienne et de John Diggle qui faisait partie de l'armée.
+		</p>
+	</div>
+
+	<div id="arrow-characters">
+		<h2>personnages</h2>
+
+		<div id="characters" class="rondperso" style="background:url(img/oliver.png) no-repeat 0px 0px;">
+			Oliver Queen
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/diggle.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/felicity.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/thea.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/laurel.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/roy.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/lance.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/malcolm.png) no-repeat 0px 0px;">
+		</div>
+
+		<div id="characters" class="rondperso" style="background:url(img/curtis.png) no-repeat 0px 0px;">
+		</div>		
+
+	</div>
+
 
 
 
