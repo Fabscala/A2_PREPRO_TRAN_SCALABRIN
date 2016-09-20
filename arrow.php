@@ -42,33 +42,60 @@
 	<div id="arrow-characters">
 		<h2>personnages</h2>
 
-		<div id="characters" class="rondperso" style="background:url(img/oliver.png) no-repeat 0px 0px;">
-			Oliver Queen
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/oliver.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Oliver Queen</div>
+		</div>
+	
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/diggle.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">John Diggle</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/diggle.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/felicity.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Felicity Smoak</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/felicity.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/thea.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Thea Queen</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/thea.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/laurel.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Laurel Lance</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/laurel.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/roy.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Roy Harper</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/roy.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/lance.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Quentin Lance</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/lance.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/malcolm.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Malcolm Merlyn</div>
 		</div>
 
-		<div id="characters" class="rondperso" style="background:url(img/malcolm.png) no-repeat 0px 0px;">
+		<div id="characters">
+			<div class="rondperso" style="background:url(img/curtis.png) no-repeat 0px 0px;">
+			</div>
+			<div class="character-name">Curtis Holt</div>
 		</div>
-
-		<div id="characters" class="rondperso" style="background:url(img/curtis.png) no-repeat 0px 0px;">
-		</div>		
+			
 
 	</div>
 
