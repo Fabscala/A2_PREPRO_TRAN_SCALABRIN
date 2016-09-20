@@ -88,3 +88,9 @@ body .serie-section img {
   height: auto;
   background-size: cover;
 }
+
+.divtitle {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
