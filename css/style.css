@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 nav {
   position: absolute;
   text-align: center;
@@ -6,12 +6,10 @@ nav {
   left: 27%;
   margin-top: 30px;
 }
-
 nav ul {
   list-style: none;
   margin: 0;
 }
-
 nav ul li {
   font-size: 16px;
   font-variant: small-caps;
@@ -19,7 +17,6 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #FFF;
@@ -36,7 +33,6 @@ body h1 {
   position: absolute;
   top: 25%;
 }
-
 body h2 {
   font-family: Roboto;
   font-variant: small-caps;
@@ -46,7 +42,6 @@ body h2 {
   padding-bottom: 70px;
   margin: 0;
 }
-
 body .rondperso {
   overflow: hidden;
   -webkit-border-radius: 50px;
@@ -55,7 +50,90 @@ body .rondperso {
   width: 100px;
   height: 100px;
 }
-
+body #arrow {
+  background-image: url("../img/arrow/arrow-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+body #arrow p {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  right: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #000;
+  opacity: 0.6;
+}
+body #arrow p span {
+  font-weight: 300 !important;
+}
+body #flash {
+  background-image: url("../img/img_flash/flash-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+body #flash p {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #FFF;
+  opacity: 0.6;
+}
+body #flash p span {
+  font-weight: 300 !important;
+}
+body #lot {
+  background-image: url("../img/lot/lot-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+body #lot .higher-text {
+  top: 24%;
+  font-size: 95px;
+}
+body #lot .lower-text {
+  top: 50%;
+}
+body #lot p {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  right: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #FFF;
+  opacity: 0.8;
+}
+body #lot p span {
+  font-weight: 300 !important;
+}
+body #supergirl {
+  background-image: url("../img/img_supergirl/supergirl-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+body #supergirl p {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #000;
+  opacity: 0.7;
+}
 body #arrow-landing {
   width: 100%;
   height: 600px;
@@ -63,39 +141,32 @@ body #arrow-landing {
   background-size: cover;
   position: relative;
 }
-
 body #arrow-landing #arrow-title {
   width: 500px;
   margin: 0 auto;
 }
-
 body #arrow-landing .arrow-link-width {
   width: 122px;
 }
-
 body #arrow-synopsis {
   background-image: url("../img/arrow/arrow-syno-bg.png");
   background-size: cover;
   padding: 100px;
 }
-
 body #arrow-synopsis p {
   font-family: Roboto;
   font-size: 15px;
   margin: 0;
 }
-
 body #arrow-characters {
   background-color: #fff;
   padding: 100px;
 }
-
 body #arrow-characters #characters {
   width: 100px;
   display: inline-block;
   margin: 0 128px 25px 128px;
 }
-
 body #arrow-characters #characters .character-name {
   font-family: 'Roboto';
   font-size: 13px;
@@ -103,7 +174,6 @@ body #arrow-characters #characters .character-name {
   text-align: center;
   margin-top: 10px;
 }
-
 body #lot-landing {
   width: 100%;
   height: 600px;
@@ -111,12 +181,10 @@ body #lot-landing {
   background-size: cover;
   position: relative;
 }
-
 body #lot-landing #lot-title {
   width: 721px;
   margin: 0 auto;
 }
-
 body #lot-landing #lot-title h1 {
   font-family: Roboto;
   font-size: 90px;
@@ -128,7 +196,6 @@ body #lot-landing #lot-title h1 {
   position: absolute;
   top: 18%;
 }
-
 body #lot-landing #lot-title .h1-bis {
   top: 25%;
   font-family: Roboto;
@@ -140,34 +207,28 @@ body #lot-landing #lot-title .h1-bis {
   opacity: 0.8;
   position: absolute;
 }
-
 body #lot-landing .lot-link-width {
   width: 232px;
 }
-
 body #lot-synopsis {
   background-image: url("../img/lot/lot-syno-bg.png");
   background-size: cover;
   padding: 100px;
 }
-
 body #lot-synopsis p {
   font-family: Roboto;
   font-size: 15px;
   margin: 0;
 }
-
 body #lot-characters {
   background-color: #fff;
   padding: 100px;
 }
-
 body #lot-characters #characters {
   width: 100px;
   display: inline-block;
   margin: 0 128px 25px 128px;
 }
-
 body #lot-characters #characters .character-name {
   font-family: 'Roboto';
   font-size: 13px;
@@ -175,12 +236,10 @@ body #lot-characters #characters .character-name {
   text-align: center;
   margin-top: 10px;
 }
-
 body #lot-characters .center-character {
   display: block !important;
   margin: 0 auto !important;
 }
-
 body #supergirl-landing {
   width: 100%;
   height: 600px;
@@ -188,39 +247,32 @@ body #supergirl-landing {
   background-size: cover;
   position: relative;
 }
-
 body #supergirl-landing #supergirl-title {
   width: 720px;
   margin: 0 auto;
 }
-
 body #supergirl-landing .supergirl-link-width {
   width: 141px;
 }
-
 body #supergirl-synopsis {
   background-image: url("../img/img_supergirl/supergirl-syno-bg.png");
   background-size: cover;
   padding: 100px;
 }
-
 body #supergirl-synopsis p {
   font-family: Roboto;
   font-size: 15px;
   margin: 0;
 }
-
 body #supergirl-characters {
   background-color: #fff;
   padding: 100px;
 }
-
 body #supergirl-characters #characters {
   width: 100px;
   display: inline-block;
   margin: 0 128px 25px 128px;
 }
-
 body #supergirl-characters #characters .character-name {
   font-family: 'Roboto';
   font-size: 13px;
@@ -228,7 +280,6 @@ body #supergirl-characters #characters .character-name {
   text-align: center;
   margin-top: 10px;
 }
-
 body #flash-landing {
   width: 100%;
   height: 600px;
@@ -236,39 +287,32 @@ body #flash-landing {
   background-size: cover;
   position: relative;
 }
-
 body #flash-landing #flash-title {
   width: 500px;
   margin-left: 280px;
 }
-
 body #flash-landing .flash-link-width {
   width: 117px;
 }
-
 body #flash-synopsis {
   background-image: url("../img/img_flash/flash-syno-bg.png");
   background-size: cover;
   padding: 100px;
 }
-
 body #flash-synopsis p {
   font-family: Roboto;
   font-size: 15px;
   margin: 0;
 }
-
 body #flash-characters {
   background-color: #fff;
   padding: 100px;
 }
-
 body #flash-characters #characters {
   width: 100px;
   display: inline-block;
   margin: 0 128px 25px 128px;
 }
-
 body #flash-characters #characters .character-name {
   font-family: 'Roboto';
   font-size: 13px;
@@ -281,11 +325,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
 body a {
   text-decoration: none;
 }
-
 body #landingpage {
   width: 100%;
   height: 600px;
@@ -293,31 +335,25 @@ body #landingpage {
   background-size: cover;
   position: relative;
 }
-
 body #landingpage #bg-video {
   position: absolute;
   width: 100%;
   z-index: -100;
 }
-
 body #landingpage #cw-logo {
   position: absolute;
   top: 40%;
   left: 35%;
 }
-
 body #landingpage #cw-logo img {
   width: 400px;
 }
-
 body .landing-link-width {
   width: 103px;
 }
-
 body #landing-link {
   margin: 0 auto;
 }
-
 body #landing-link #landing-link-text {
   font-family: 'Roboto';
   font-variant: small-caps;
@@ -327,12 +363,10 @@ body #landing-link #landing-link-text {
   position: absolute;
   bottom: 30px;
 }
-
 body .serie-section-index {
   width: 100%;
   height: auto;
 }
-
 body .serie-section-index img {
   width: 100%;
   height: auto;

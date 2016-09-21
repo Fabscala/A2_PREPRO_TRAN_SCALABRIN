@@ -31,21 +31,29 @@
 
 		</div>
 
-		<div id="arrow" class="serie-section-index">
-			<a href="arrow.php"><img src="img/arrow/arrow-index.png" alt=""></a>
-		</div>
+		<a href="arrow.php">
+			<div id="arrow" class="serie-section-index">
+				<p><span>the</span> arrow</p>
+			</div>
+		</a>
 
-		<div class="serie-section-index">
-			<a href="flash.php"><img src="img/img_flash/flash-index.png" alt=""></a>
-		</div>
+		<a href="flash.php">
+			<div id="flash" class="serie-section-index">
+				<p><span>the</span> flash</p>
+			</div>
+		</a>
 
-		<div class="serie-section-index">
-			<a href="lot.php"><img src="img/lot/lot-index.png" alt=""></a>
-		</div>
+		<a href="lot.php">
+			<div id="lot" class="serie-section-index">
+				<p class="higher-text">legend's <span>of</span></p> <p class="lower-text">tomorrow</p>
+			</div>
+		</a>
 
-		<div class="serie-section-index">
-			<a href="supergirl.php"><img src="img/img_supergirl/supergirl-index.png" alt=""></a>
-		</div>
+		<a href="supergirl.php">
+			<div id="supergirl" class="serie-section-index">
+				<p>supergirl</p>
+			</div>
+		</a>
 
 	</header>
 
