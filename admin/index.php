@@ -1,4 +1,15 @@
-<?php include '../config/config.php'; ?>
+<?php 
+session_start();
+include '../config/config.php';
+
+if (isset($_SESSION["id"])) {
+    
+}else{
+	header("Location:login.php");
+
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +28,7 @@
   			<ul>
  				<li><a href="index.php">accueil</a></li>
  				<li><a href="index.php">modifier</a></li>
- 				<li><a href="index.php">se deconnecter</a></li>
+ 				<li><a href="logout.php">se deconnecter</a></li>
   			</ul>
   		</nav>
 
