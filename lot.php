@@ -105,7 +105,7 @@
 		</div>
 		<span>Jefferson "Jax" Jackson est un quaterback qui se fait souffler par l'explosion du générateur de particules. Blessé il devient mécanicien dans un garage. Il est la moitié de Firestorm avec Martin Stein, en remplacement de Ronnie Raymond.</span></a>
 
-		<a href=""><div id="characters" class="center-character">
+		<a href=""><div id="characters">
 			<div class="rondperso" style="background:url(img/lot/vandal.png) no-repeat 0px 0px;">
 			</div>
 			<div class="character-name">Vandal Savage</div>
