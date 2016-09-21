@@ -36,7 +36,7 @@
 		</div>
 
 		<div class="serie-section-index">
-			<a href="flash.php"><img src="img/flash-index.png" alt=""></a>
+			<a href="flash.php"><img src="img/img_flash/flash-index.png" alt=""></a>
 		</div>
 
 		<div class="serie-section-index">
