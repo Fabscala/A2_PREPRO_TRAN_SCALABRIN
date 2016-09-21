@@ -56,6 +56,103 @@ body .rondperso {
   height: 100px;
 }
 
+body #arrow {
+  background-image: url("../img/arrow/arrow-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+
+body #arrow p {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  right: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #000;
+  opacity: 0.6;
+}
+
+body #arrow p span {
+  font-weight: 300 !important;
+}
+
+body #flash {
+  background-image: url("../img/img_flash/flash-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+
+body #flash p {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #FFF;
+  opacity: 0.6;
+}
+
+body #flash p span {
+  font-weight: 300 !important;
+}
+
+body #lot {
+  background-image: url("../img/lot/lot-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+
+body #lot .higher-text {
+  top: 24%;
+  font-size: 95px;
+}
+
+body #lot .lower-text {
+  top: 50%;
+}
+
+body #lot p {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  right: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #FFF;
+  opacity: 0.8;
+}
+
+body #lot p span {
+  font-weight: 300 !important;
+}
+
+body #supergirl {
+  background-image: url("../img/img_supergirl/supergirl-index.png");
+  background-size: cover;
+  height: 240px;
+  position: relative;
+}
+
+body #supergirl p {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50px;
+  font-family: Roboto;
+  font-variant: small-caps;
+  font-size: 100px;
+  color: #000;
+  opacity: 0.7;
+}
+
 body #arrow-landing {
   width: 100%;
   height: 600px;
