@@ -11,9 +11,17 @@
        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
        <script type="text/javascript" src="../js/scroll.js"></script>
 </head>
-<body>
+<body id="admin-body">
 
-	<div id="login_content">
+		<nav class="navbar-admin">
+  			<ul>
+ 				<li><a href="index.php">accueil</a></li>
+ 				<li><a href="index.php">modifier</a></li>
+ 				<li><a href="index.php">se deconnecter</a></li>
+  			</ul>
+  		</nav>
+
+	<div id="admin-content">
 		<h3> Administration </h3>
 
 		<form method="POST" action="login.php">
