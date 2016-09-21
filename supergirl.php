@@ -1,3 +1,4 @@
+<?php include 'config/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +17,28 @@
 
                      <?php include ('navbar.php'); ?>
 
+                     <?php 
+
+                     $page_n = "4";
+
+                     $req = $db->prepare("SELECT * FROM series WHERE id = :page_n");
+
+                     $req->execute([
+                            'page_n' => $page_n
+                           ]);
+                     while($data = $req->fetch()){
+
+                    ?>
+
                      <div id="supergirl-title">
-                            <h1>supergirl</h1>
+                            <h1><?php echo $data['title']; ?></h1>
                      </div>
 
 
 
                      <div id="landing-link" class="supergirl-link-width">
                             <a href="#supergirl-synopsis">
-                                   <p id="landing-link-text">decouvrir supergirl<br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                                   <p id="landing-link-text">decouvrir <?php echo $data['title']; ?><br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
                             </a>
                      </div>
 
@@ -34,8 +48,7 @@
 
         <div id="supergirl-synopsis">
               <h2>synopsis</h2>
-                   <p>Lors de l'explosion de la planète Krypton, Kara El fut envoyée avec son cousin nouveau-né Kal El sur Terre, la jeune fille devant protéger l'enfant. Mais la navette de Kara se perdit dans la Zone fantôme, bloquée dans le temps pendant 25 ans. Une fois sur Terre, Kara était encore adolescente quand Kal était devenu adulte, connu sous le nom de Superman. Il confia Kara à la famille Danvers, des scientifiques familiers avec la technologie kryptonienne. Douze ans plus tard, Kara cache encore ses pouvoirs et travaille comme assistante pour Cat Grant, une magnat de la presse de National City. Frustrée, le crash annoncé d'un avion où se trouve sa sœur adoptive Alex lui donne l'occasion de montrer au monde qu'elle a les mêmes pouvoirs que Superman.
-                   </p>
+                   <p><?php echo $data['synopsis']; }?></p>
          </div>
 
        <div id="supergirl-characters">

@@ -1,3 +1,5 @@
+<?php include 'config/config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +18,28 @@
 
 			<?php include ('navbar.php'); ?>
 
+			<?php 
+
+			$page_n = "1";
+
+			$req = $db->prepare("SELECT * FROM series WHERE id = :page_n");
+
+            $req->execute([
+                    	'page_n' => $page_n
+                    ]);
+            while($data = $req->fetch()){
+
+                    ?>
+
 			<div id="arrow-title">
-				<h1>arrow</h1>
+				<h1><?php echo $data['title']; ?></h1>
 			</div>
 
 
 
 			<div id="landing-link" class="arrow-link-width">
 				<a href="#arrow-synopsis">
-					<p id="landing-link-text">decouvrir arrow <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+					<p id="landing-link-text">decouvrir <?php echo $data['title']; ?> <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 				</a>
 			</div>
 
@@ -34,9 +49,7 @@
 
 	<div id="arrow-synopsis">
 		<h2>synopsis</h2>
-		<p>Après un violent naufrage, le milliardaire Oliver Queen, playboy, porté disparu et présumé mort depuis cinq ans, est découvert vivant sur une île isolée dans le Pacifique. Quand il rentre chez lui, à Starling City, sa mère dévouée Moira, sa sœur bien-aimée Théa et son meilleur ami Tommy l'accueillent chez lui, mais ils sentent qu'Oliver a changé. Alors qu'Oliver cache la vérité sur l'homme qu'il est devenu, il cherche désespérément à faire amende honorable pour les actions passées de son père et tente de se réconcilier avec son ex-petite amie, Laurel Lance.<br><br>
-
-		Il crée alors secrètement le personnage de l’Archer qui va réparer les torts de sa famille, lutter contre les maux de la société et redonner à la ville de Starling son ancienne gloire. En tant qu'héritier de la multinationale Queen Consolidated, Oliver joue également le rôle d'un coureur de jupons riche, insouciant et négligeant afin de cacher son identité secrète. Cependant, le père de Laurel, l'inspecteur Quentin Lance, est déterminé à arrêter le justicier dans sa ville. Dans les épisodes il sera aidé de Felicity une informaticienne et de John Diggle qui faisait partie de l'armée.
+		<p><?php echo $data['synopsis']; }?>
 		</p>
 	</div>
 

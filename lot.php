@@ -16,6 +16,19 @@
 
 			<?php include ('navbar.php'); ?>
 
+                     <?php 
+
+                     $page_n = "3";
+
+                     $req = $db->prepare("SELECT * FROM series WHERE id = :page_n");
+
+                     $req->execute([
+                            'page_n' => $page_n
+                           ]);
+                     while($data = $req->fetch()){
+
+                    ?>
+
 			<div id="lot-title">
 				<h1>legend's of</h1>
 				<h1 class="h1-bis">tomorrow</h1>
@@ -25,7 +38,7 @@
 
 			<div id="landing-link" class="lot-link-width">
 				<a href="#lot-synopsis">
-					<p id="landing-link-text">decouvrir legend's of tomorrow <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+					<p id="landing-link-text">decouvrir <?php echo $data['title']; ?> <br> <i class="fa fa-angle-down" aria-hidden="true"></i></p>
 				</a>
 			</div>
 
@@ -35,8 +48,7 @@
 
 	<div id="lot-synopsis">
 		<h2>synopsis</h2>
-		<p>Après avoir vu le futur, Rip Hunter, un Maître du temps du 22ème siècle, décide - contre l'avis de son Conseil - de stopper le tyran immortel qui fera basculer le monde dans le chaos. Pour accomplir sa mission, il constitue une équipe d'élite qui l'aidera à traquer le méchant à travers le temps et arrêter sa montée au pouvoir. The A.T.O.M., Captain Cold, Heat Wave, White Canary, Firestorm, Hawkgirl et Hawkman saisissent cette opportunité de prendre en mains leur destinée. Parviendront-il à sauver l'Humanité et marquer l'Histoire en devenant les légendes de demain ?
-		</p>
+		<p><?php echo $data['synopsis']; } ?></p>
 	</div>
 
 	<div id="lot-characters">
