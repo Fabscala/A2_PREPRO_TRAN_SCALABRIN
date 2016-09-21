@@ -1,3 +1,5 @@
+<?php include '../config/config.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,16 +13,10 @@
 </head>
 <body>
 
-	<div id="login_content">
+	<div id="gestion_index">
 		<h3> Administration </h3>
 
-		<form method="POST" action="gestion_index.php">
-			<label for="pseudo">Pseudo :</label>
-			<input type="text" name="pseudo" id="pseudo" placeholder="Pseudo"/><br />
-			<label for="mdp">Mot de passe :</label>
-			<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" /><br /><br />
-			<input type="submit" value="Connexion" id="submit" />
-		</form>
+
 
 	</div>
 	

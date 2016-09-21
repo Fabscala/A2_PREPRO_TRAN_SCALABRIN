@@ -227,7 +227,7 @@ body #lot-landing #lot-title h1 {
   top: 18%;
 }
 body #lot-landing #lot-title .h1-bis {
-  top: 25%;
+  top: 50%;
   font-family: Roboto;
   font-size: 110px;
   font-variant: small-caps;
@@ -450,6 +450,9 @@ h3 {
   background-color: #F2F1EF;
   margin: 70px auto 0 auto;
   padding-top: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 #login_content form {
   width: 321px;
