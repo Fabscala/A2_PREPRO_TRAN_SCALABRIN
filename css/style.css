@@ -162,10 +162,40 @@ body #arrow-characters {
   background-color: #fff;
   padding: 100px;
 }
+body #arrow-characters a {
+  color: #000;
+}
+body #arrow-characters a:hover, body #arrow-characters a:focus {
+  color: #000;
+}
+body #arrow-characters a span {
+  opacity: 0;
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-left: -345px;
+  margin-top: 85px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transform: scale(0) rotate(-80deg);
+  transition: all .25s;
+}
+body #arrow-characters a:hover span, body #arrow-characters a:focus span {
+  transform: scale(1) rotate(0);
+  opacity: 0.8;
+}
 body #arrow-characters #characters {
   width: 100px;
   display: inline-block;
   margin: 0 128px 25px 128px;
+  position: relative;
 }
 body #arrow-characters #characters .character-name {
   font-family: 'Roboto';
