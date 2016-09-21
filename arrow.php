@@ -5,6 +5,7 @@
 	<title>The CW</title>
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/font-awesome.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/icone.ico">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/scroll.js"></script>
 </head>
