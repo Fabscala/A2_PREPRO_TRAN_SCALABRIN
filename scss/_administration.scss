@@ -1,35 +1,161 @@
-h3 {
-	font-family: 'Roboto';
-	font-size: 30px;
-	font-variant: small-caps;
-	font-weight: 500;
-	color:black;
-	text-align: center;
-	margin:0;
-}
+#admin-body{
+	background-color: #292929;
 
-#login_content {
-	width:75%;
-	height: 300px;
-	background-color:#F2F1EF;
-	margin:70px auto 0 auto;
-	padding-top:20px;
+	.navbar-admin {
+			    text-align: center;
+			    margin-top: 30px;
 
-	form{
-		width:321px;
-		margin:12% auto 0 auto;
+				ul {
+					list-style:none;
+					margin:0;
 
-		label{
-			display: block;
-	    width: 190px;
-	    float: left;
-	    font-family: 'Roboto';
-	    font-size: 15px;
+					li{
+						font-size:16px;
+						font-variant: small-caps;
+						font-family: 'Roboto';
+						display:inline-block;
+						margin-right: 20px;
+
+						a{
+							text-decoration:none;
+							color:#dfdfdf;
+						}
+
+					}
+
+				}
+			}
+
+	h3 {
+		font-family: 'Roboto';
+		font-size: 30px;
+		font-variant: small-caps;
+		font-weight: 500;
+		color:#fff;
+		text-align: center;
+		margin:0;
+	}
+
+	#admin-content {
+		width:75%;
+		height: auto;
+		background-color:#323232;
+		margin:70px auto 100px auto;
+		padding: 20px 0 50px 0;
+		@include border-radius(5px);
+
+		form{
+			width:321px;
+			margin:12% auto 0 auto;
+
+			label{
+				display: block;
+		    width: 190px;
+		    float: left;
+		    font-family: 'Roboto';
+		    font-size: 15px;
+		    color:#fff;
+			}
+
+			input{
+				float:right;
+			}
 		}
 
-		input{
-			float:right;
+		#arrow-admin {
+		background-image:url('../img/arrow/arrow-index.png');
+		background-size:cover;
+		height:100px;
+		width:800px;
+		position:relative;
+		margin:50px auto 10px auto;
+
+			p {
+				margin: 0;
+		    position: absolute;
+		    top: 20%;
+		    right: 20px;
+		    font-family: Roboto;
+		    font-variant: small-caps;
+		    font-size: 55px;
+		    color: #000;
+		    opacity: 0.7;
+			}
 		}
+
+		#flash-admin {
+		background-image:url('../img/img_flash/flash-index.png');
+		background-size:cover;
+		height:100px;
+		width:800px;
+		position:relative;
+		margin:50px auto 10px auto;
+
+			p {
+				margin: 0;
+		    position: absolute;
+		    top: 20%;
+		    left: 20px;
+		    font-family: Roboto;
+		    font-variant: small-caps;
+		    font-size: 55px;
+		    color: #000;
+		    opacity: 0.7;
+			}
+		}
+
+		#lot-admin {
+		background-image:url('../img/lot/lot-index.png');
+		background-size:cover;
+		height:100px;
+		width:800px;
+		position:relative;
+		margin:50px auto 10px auto;
+
+			.higher-text{
+			    top: 8%;
+    			font-size: 45px;
+			}
+
+			.lower-text{
+				top:39%;
+			}
+
+			p {
+				margin: 0;
+		    position: absolute;
+		    top: 20%;
+		    right: 20px;
+		    font-family: Roboto;
+		    font-variant: small-caps;
+		    font-size: 48px;
+		    color: #fff;
+		    opacity: 0.7;
+			}
+		}
+
+		#supergirl-admin {
+		background-image:url('../img/img_supergirl/supergirl-index.png');
+		background-size:cover;
+		height:100px;
+		width:800px;
+		position:relative;
+		margin:50px auto 10px auto;
+
+			p {
+				margin: 0;
+		    position: absolute;
+		    top: 20%;
+		    left: 20px;
+		    font-family: Roboto;
+		    font-variant: small-caps;
+		    font-size: 55px;
+		    color: #000;
+		    opacity: 0.7;
+			}
+		}
+
 	}
 
 }
+

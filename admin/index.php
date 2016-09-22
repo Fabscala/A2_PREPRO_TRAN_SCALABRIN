@@ -1,3 +1,16 @@
+<?php 
+session_start();
+include '../config/config.php';
+
+if (isset($_SESSION["id"])) {
+    
+}else{
+	header("Location:login.php");
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,18 +22,43 @@
        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
        <script type="text/javascript" src="../js/scroll.js"></script>
 </head>
-<body>
+<body id="admin-body">
 
-	<div id="login_content">
+		<nav class="navbar-admin">
+  			<ul>
+ 				<li><a href="index.php">accueil</a></li>
+ 				<li><a href="index.php">modifier</a></li>
+ 				<li><a href="logout.php">se deconnecter</a></li>
+  			</ul>
+  		</nav>
+
+	<div id="admin-content">
 		<h3> Administration </h3>
 
-		<form method="POST" action="gestion_index.php">
-			<label for="pseudo">Pseudo :</label>
-			<input type="text" name="pseudo" id="pseudo" placeholder="Pseudo"/><br />
-			<label for="mdp">Mot de passe :</label>
-			<input type="password" name="mdp" id="mdp" placeholder="Mot de passe" /><br /><br />
-			<input type="submit" value="Connexion" id="submit" />
-		</form>
+	<a href="#">
+			<div id="arrow-admin" class="serie-section-index">
+				<p><span>the</span> arrow</p>
+			</div>
+		</a>
+
+		<a href="#">
+			<div id="flash-admin" class="serie-section-index">
+				<p><span>the</span> flash</p>
+			</div>
+		</a>
+
+		<a href="#">
+			<div id="lot-admin" class="serie-section-index">
+				<p class="higher-text">legend's <span>of</span></p> <p class="lower-text">tomorrow</p>
+			</div>
+		</a>
+
+		<a href="#">
+			<div id="supergirl-admin" class="serie-section-index">
+				<p>supergirl</p>
+			</div>
+		</a>
+
 
 	</div>
 	

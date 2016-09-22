@@ -31,102 +31,6 @@ body{
 	    height:100px;
 	}
 
-	#arrow {
-		background-image:url('../img/arrow/arrow-index.png');
-		background-size:cover;
-		height:240px;
-		position:relative;
-
-		p {
-			margin:0;
-			position:absolute;
-			top:20%;
-			right:50px;
-			font-family:Roboto;
-			font-variant:small-caps;
-			font-size:100px;
-			color:#000;
-			opacity:0.6;
-
-			span {
-				font-weight: 300 !important;
-			}
-		}
-	}
-
-	#flash {
-		background-image:url('../img/img_flash/flash-index.png');
-		background-size:cover;
-		height:240px;
-		position:relative;
-
-		p {
-			margin:0;
-			position:absolute;
-			top:35%;
-			left:50px;
-			font-family:Roboto;
-			font-variant:small-caps;
-			font-size:100px;
-			color:#FFF;
-			opacity:0.6;
-
-			span {
-				font-weight: 300 !important;
-			}
-		}
-	}
-	
-	#lot {
-		background-image:url('../img/lot/lot-index.png');
-		background-size:cover;
-		height:240px;
-		position:relative;
-
-		.higher-text{
-			    top: 24%;
-    			font-size: 95px;
-			}
-
-		.lower-text{
-				top:50%;
-			}
-
-		p {
-			margin:0;
-			position:absolute;
-			top:35%;
-			right:50px;
-			font-family:Roboto;
-			font-variant:small-caps;
-			font-size:100px;
-			color:#FFF;
-			opacity:0.8;
-
-			span {
-				font-weight: 300 !important;
-			}
-		}
-	}
-
-	#supergirl {
-		background-image:url('../img/img_supergirl/supergirl-index.png');
-		background-size:cover;
-		height:240px;
-		position:relative;
-
-		p {
-			margin:0;
-			position:absolute;
-			top:20%;
-			left:50px;
-			font-family:Roboto;
-			font-variant:small-caps;
-			font-size:100px;
-			color:#000;
-			opacity:0.7;
-		}
-	}
 
 
 	#arrow-landing{
@@ -238,7 +142,7 @@ body{
 			}
 
 			.h1-bis{
-    			top: 25%;
+    			top: 50%;
     			font-family: Roboto;
 			    font-size: 110px;
 			    font-variant: small-caps;

@@ -30,8 +30,7 @@
                     ?>
 
 			<div id="lot-title">
-				<h1>legend's of</h1>
-				<h1 class="h1-bis">tomorrow</h1>
+				<h1><?php echo $data['title']; ?></h1>
 			</div>
 
 
