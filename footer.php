@@ -17,7 +17,7 @@
 
 				<div class="footer-icons">
 
-					  Social links :         <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="http://lh5.googleusercontent.com/-0MlsUFgr9nc/AAAAAAAAAAI/AAAAAAAAAFQ/A1IXqZeR9CQ/s512-c/photo.jpg"  id="socialicon"> </a>
+					  <a href="https://www.facebook.com/SoundCloud/?fref=ts"><img src="http://lh5.googleusercontent.com/-0MlsUFgr9nc/AAAAAAAAAAI/AAAAAAAAAFQ/A1IXqZeR9CQ/s512-c/photo.jpg"  id="socialicon"> </a>
 					  <a href="https://twitter.com/SoundCloud"><img src="https://freeiconshop.com/files/edd/twitter-solid.png" class="footerme" id="socialicon"> </a>
 
 				</div>
