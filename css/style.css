@@ -570,9 +570,9 @@ footer {
   font-size: 15px;
 }
 
-#textfooter {
+.textfooter {
   display: inline-block;
-  margin-left: 20Px;
+  margin-left: 20px;
 }
 
 #hearticon {
@@ -592,6 +592,17 @@ footer {
 #socialicon {
   display: inline-block;
   width: 3%;
+  margin-left: 10px;
+}
+
+#logofooter {
+  width: 10%;
+  margin-left: 45%;
+}
+
+#email {
+  float: right;
+  margin-right: 20px;
 }
 
 body {
