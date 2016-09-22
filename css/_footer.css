@@ -1,0 +1,40 @@
+footer {
+  font-family: 'Roboto';
+  font-variant: small-caps;
+  font-size: 15px;
+}
+
+.textfooter {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#hearticon {
+  margin-left: 4px;
+  display: inline-block;
+  width: 3%;
+}
+
+.footer-back {
+  background-color: #95a5a6;
+}
+
+.footer-icons {
+  padding: 0px 0px 0px 20px;
+}
+
+#socialicon {
+  display: inline-block;
+  width: 3%;
+  margin-left: 10px;
+}
+
+#logofooter {
+  width: 10%;
+  margin-left: 45%;
+}
+
+#email {
+  float: right;
+  margin-right: 20px;
+}
