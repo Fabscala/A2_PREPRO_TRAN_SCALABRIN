@@ -1,4 +1,12 @@
-<?php include '../config/config.php'; ?>
+<?php include '../config/config.php'; 
+session_start();
+
+if (isset($_SESSION["id"])) {
+    header("Location:index.php");
+}else{
+
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,22 +21,12 @@
 </head>
 <body id="admin-body">
 
-		<nav class="navbar-admin">
-  			<ul>
- 				<li><a href="index.php">accueil</a></li>
- 				<li><a href="index.php">modifier</a></li>
- 				<li><a href="index.php">se deconnecter</a></li>
-  			</ul>
-  		</nav>
-
 	<div id="admin-content">
-		<h3> Administration </h3>
+		<h3> se connecter </h3>
 
 		<form method="POST" action="login.php">
-			<label for="username">Pseudo :</label>
-			<input type="text" name="username" id="username" placeholder="Pseudo"/><br />
-			<label for="password">Mot de passe :</label>
-			<input type="password" name="password" id="password" placeholder="Mot de passe" /><br /><br />
+			<input type="text" name="username" id="username" placeholder="Pseudo"/>
+			<input type="password" name="password" id="password" placeholder="Mot de passe" />
 			<input type="submit" value="Connexion" id="submit" />
 		</form>
 

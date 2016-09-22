@@ -45,8 +45,8 @@
 		@include border-radius(5px);
 
 		form{
-			width:321px;
-			margin:12% auto 0 auto;
+			width: 268px;
+    		margin: 7% auto;
 
 			label{
 				display: block;
@@ -58,9 +58,37 @@
 			}
 
 			input{
-				float:right;
+				font-family: Roboto;
+    			font-size: 13px;
 			}
+
+			#submit{
+				margin:40px auto;
+				display: block;
+			}
+
+			/* EDIT PAGE*/
+
+			#title-label {
+				margin-bottom:10px;
+			}
+
+			#title {
+				width:100%;
+				float:inherit;
+			}
+
+			#synopsis-label{
+				margin-top: 20px;
+			}
+
+			#synopsis{
+				margin-top: 10px;
+    			width: 100%;
+			}
+
 		}
+
 
 		#arrow-admin {
 		background-image:url('../img/arrow/arrow-index.png');
@@ -152,6 +180,48 @@
 		    font-size: 55px;
 		    color: #000;
 		    opacity: 0.7;
+			}
+		}
+
+		#characters-list{
+			font-family: Roboto;
+		    font-size: 15px;
+		    margin: 20px;
+
+		    a{
+		    	color:#fff;
+		    }
+		}
+
+		#edit_characters{
+			input, textarea{
+				width:100%;
+				margin:10px 0;
+			}
+
+			#edit {
+				width:50px;
+				margin-top:20px;
+			}
+		}
+
+		#admin-options{
+			ul{
+				list-style: none;
+			    width: 294px;
+			    padding: 0;
+			    margin: 50px auto;
+				
+				li {
+					margin:10px 0;
+				}
+
+				a{
+					text-decoration: none;
+					font-family: Roboto;
+					font-size: 18px;
+					color:#FFF;
+				}
 			}
 		}
 

@@ -20,12 +20,12 @@
 
 			<?php 
 
-			$page_n = "1";
+			$serie_id = "1";
 
-			$req = $db->prepare("SELECT * FROM series WHERE id = :page_n");
+			$req = $db->prepare("SELECT * FROM series WHERE id = :serie_id");
 
             $req->execute([
-                    	'page_n' => $page_n
+                    	'serie_id' => $serie_id
                     ]);
             while($data = $req->fetch()){
 
@@ -56,68 +56,23 @@
 	<div id="arrow-characters">
 		<h2>personnages</h2>
 
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/oliver.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Oliver Queen</div>
-		</div>
-		<span>Né le 16 mai 1985, Oliver Queen est le fils de Robert et Moira Queen. Héritier d'une fortune considérable, il est l'un des playboys de Starling City et connu pour ses frasques.</span></a>
-	
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/diggle.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">John Diggle</div>
-		</div>
-		<span>John Diggle est un vétéran de l'armée, vivant dans l'ombre de son frère mort au front, tué par Deadshot, à qui il accordera son pardon plus tard. </span></a>
+			<?php
+
+			$req = $db->prepare("SELECT * FROM characters WHERE serie_id = :serie_id");
+
+            $req->execute([
+                    	'serie_id' => $serie_id
+                    ]);
+            while($data = $req->fetch()){ ?>
 
 		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/felicity.png) no-repeat 0px 0px;">
+			<div class="rondperso" style="background:url(img/arrow/<?php echo $data['image_name']; ?>) no-repeat 0px 0px;">
 			</div>
-			<div class="character-name">Felicity Smoak</div>
+			<div class="character-name"><?php echo $data['name']; ?></div>
 		</div>
-		<span>Felicity Smoak est informaticienne et simple employée de Queen Industries quand Oliver sollicite ses talents pour récupérer des informations sur les hommes de sa liste. </span></a>
+		<span><?php echo $data['description']; ?></span></a>
 
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/thea.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Thea Queen</div>
-		</div>
-		<span>Thea Queen est la sœur cadette d'Oliver. La disparition de son frère, dont elle était proche, la marque et elle commence à devenir une figure des nuits de Starling City, souvent arrêtée pour consommation de drogue.</span></a>
-
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/laurel.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Laurel Lance</div>
-		</div>
-		<span>Laurel Lance est avocate puis procureur à Starling City. Elle est la fille de Quentin et Dinah Lance.</span></a>
-
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/roy.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Roy Harper</div>
-		</div>
-		<span>Roy Harper est au début un voleur vivant tant bien que mal dans les bas quartiers de Starling City. Il tombe amoureux de Thea après l'avoir rencontré en volant son sac et devient un des plus fervents défenseurs de Arrow.</span></a>
-
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/lance.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Quentin Lance</div>
-		</div>
-		<span>Le lieutenant Quentin Lance travaille pour la police de Starling City et est chargé de l'affaire de l'archer justicier qui sévit dans la ville. Il a deux filles, Laurel et Sarah, et a été marié à Dinah.</span></a>
-
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/malcolm.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Malcolm Merlyn</div>
-		</div>
-		<span>Malcolm Merlyn est un riche homme d'affaires ayant souvent côtoyé les Queen. Marqué par la mort violente de sa femme, abattue pendant une agression, il disparait pendant plusieurs années et devient un des membres les plus dangereux de la Ligue des Assassins : l'Archer Noir.</span></a>
-
-		<a href=""><div id="characters">
-			<div class="rondperso" style="background:url(img/arrow/curtis.png) no-repeat 0px 0px;">
-			</div>
-			<div class="character-name">Curtis Holt</div>
-		</div>
-		<span>Curtis est un employer de Palmer Technologie, il travaillera plus tard avec Felicity. Il découvrira plus tard l'équipe d'Arrow et finira par travailler pour eux. Dans la cinquième saison, il choisira de se battre au côté d'Oliver.</span></a>
+		<?php } ?>
 			
 
 	</div>
