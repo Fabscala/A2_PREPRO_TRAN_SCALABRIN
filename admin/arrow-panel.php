@@ -25,33 +25,22 @@ if (isset($_SESSION["id"])) {
 <body id="admin-body">
 
 <?php include "navbar.php"; ?>
-
+	
 	<div id="admin-content">
 		<h3> Administration </h3>
 
-		<a href="arrow-panel.php">
 			<div id="arrow-admin" class="serie-section-index">
 				<p><span>the</span> arrow</p>
 			</div>
-		</a>
 
-		<a href="flash-panel.php">
-			<div id="flash-admin" class="serie-section-index">
-				<p><span>the</span> flash</p>
+			<div id="admin-options">
+				<ul>
+					<li><a href="edit.php?id=1">Modifier le titre / synopsis de la série</a></li>
+					<li><a href="edit_characters_list.php?id=1">Modifier un personnage de la série</a></li>
+					<li><a href="add_character.php">Ajouter un personnage à la série</a></li>
+					<li><a href="delete_character_list.php?id=1">Supprimer un personnage de la série</a></li>
+				</ul>
 			</div>
-		</a>
-
-		<a href="lot-panel.php">
-			<div id="lot-admin" class="serie-section-index">
-				<p class="higher-text">legend's <span>of</span></p> <p class="lower-text">tomorrow</p>
-			</div>
-		</a>
-
-		<a href="supergirl-panel.php">
-			<div id="supergirl-admin" class="serie-section-index">
-				<p>supergirl</p>
-			</div>
-		</a>
 
 
 	</div>

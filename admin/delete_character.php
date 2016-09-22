@@ -29,30 +29,28 @@ if (isset($_SESSION["id"])) {
 	<div id="admin-content">
 		<h3> Administration </h3>
 
-		<a href="arrow-panel.php">
-			<div id="arrow-admin" class="serie-section-index">
-				<p><span>the</span> arrow</p>
-			</div>
-		</a>
+	<?php 
 
-		<a href="flash-panel.php">
-			<div id="flash-admin" class="serie-section-index">
-				<p><span>the</span> flash</p>
-			</div>
-		</a>
+      if(isset($_GET["id"])) {
+          $id = htmlspecialchars($_GET["id"]);
 
-		<a href="lot-panel.php">
-			<div id="lot-admin" class="serie-section-index">
-				<p class="higher-text">legend's <span>of</span></p> <p class="lower-text">tomorrow</p>
-			</div>
-		</a>
 
-		<a href="supergirl-panel.php">
-			<div id="supergirl-admin" class="serie-section-index">
-				<p>supergirl</p>
-			</div>
-		</a>
 
+          $request = $db->prepare("DELETE FROM characters WHERE id = :id");
+
+          $request->execute(array("id" => $id));
+
+          echo '<div style="font-family: Roboto; text-align: center; font-size: 20px; color: green;">Le personnage a été supprimé !</div>';
+          ?>
+            <meta http-equiv="refresh" content="3; URL=http://127.0.0.1/A2_PREPRO_TRAN_SCALABRIN/admin/delete_character_list.php">
+          <?php
+
+      }
+      else {
+          echo '<div style="font-family: Roboto; text-align: center; font-size: 20px; color: red;">ID non spécifié !</div>';
+      }
+
+    ?>
 
 	</div>
 	

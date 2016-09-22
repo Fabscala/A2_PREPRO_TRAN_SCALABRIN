@@ -392,8 +392,9 @@ body #flash-characters #characters .character-name {
   border-radius: 5px;
 }
 #admin-body #admin-content form {
-  width: 321px;
-  margin: 12% auto 0 auto;
+  width: 268px;
+  margin: 7% auto;
+  /* EDIT PAGE*/
 }
 #admin-body #admin-content form label {
   display: block;
@@ -404,7 +405,26 @@ body #flash-characters #characters .character-name {
   color: #fff;
 }
 #admin-body #admin-content form input {
-  float: right;
+  font-family: Roboto;
+  font-size: 13px;
+}
+#admin-body #admin-content form #submit {
+  margin: 40px auto;
+  display: block;
+}
+#admin-body #admin-content form #title-label {
+  margin-bottom: 10px;
+}
+#admin-body #admin-content form #title {
+  width: 100%;
+  float: inherit;
+}
+#admin-body #admin-content form #synopsis-label {
+  margin-top: 20px;
+}
+#admin-body #admin-content form #synopsis {
+  margin-top: 10px;
+  width: 100%;
 }
 #admin-body #admin-content #arrow-admin {
   background-image: url("../img/arrow/arrow-index.png");
@@ -488,6 +508,37 @@ body #flash-characters #characters .character-name {
   font-size: 55px;
   color: #000;
   opacity: 0.7;
+}
+#admin-body #admin-content #characters-list {
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 20px;
+}
+#admin-body #admin-content #characters-list a {
+  color: #fff;
+}
+#admin-body #admin-content #edit_characters input, #admin-body #admin-content #edit_characters textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+#admin-body #admin-content #edit_characters #edit {
+  width: 50px;
+  margin-top: 20px;
+}
+#admin-body #admin-content #admin-options ul {
+  list-style: none;
+  width: 294px;
+  padding: 0;
+  margin: 50px auto;
+}
+#admin-body #admin-content #admin-options ul li {
+  margin: 10px 0;
+}
+#admin-body #admin-content #admin-options ul a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #FFF;
 }
 
 body {

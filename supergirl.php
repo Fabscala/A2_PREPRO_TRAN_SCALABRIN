@@ -19,12 +19,12 @@
 
                      <?php 
 
-                     $page_n = "4";
+                     $serie_id = "4";
 
-                     $req = $db->prepare("SELECT * FROM series WHERE id = :page_n");
+                     $req = $db->prepare("SELECT * FROM series WHERE id = :serie_id");
 
                      $req->execute([
-                            'page_n' => $page_n
+                            'serie_id' => $serie_id
                            ]);
                      while($data = $req->fetch()){
 
@@ -54,47 +54,23 @@
        <div id="supergirl-characters">
               <h2>personnages</h2>
 
-              <a href=""><div id="characters">
-                     <div class="rondperso" style="background:url(img/img_supergirl/supergirl.png) no-repeat 0px 0px;">
-                     </div>
-                     <div class="character-name">Kara Danvers</div>
-              </div>
-              <span>Kara Zor-El / Kara Danvers / Supergirl est une kryptonnienne envoyée sur Terre pour protégée son cousin. Mais elle fut bloquée dans la Zone Fantôme et son cousin est devenu Clark Kent alias Superman.</span></a>
-       
-              <a href=""><div id="characters">
-                     <div class="rondperso" style="background:url(img/img_supergirl/jimmy.png) no-repeat 0px 0px;">
-                     </div>
-                     <div class="character-name">James Olsen</div>
-              </div>
-              <span>James Olsen est un photographe pour CatCo.</span></a>
+      <?php
 
-              <a href=""><div id="characters">
-                     <div class="rondperso" style="background:url(img/img_supergirl/alexandra.png) no-repeat 0px 0px;">
-                     </div>
-                     <div class="character-name">Alexandra Danvers</div>
-              </div>
-              <span>Alexandra "Alex" Danvers est employée d'une organisation secrète du gouvernement et la sœur adoptive de Kara Danvers.</span></a>
+      $req = $db->prepare("SELECT * FROM characters WHERE serie_id = :serie_id");
 
-              <a href=""><div id="characters">
-                     <div class="rondperso" style="background:url(img/img_supergirl/winn.png) no-repeat 0px 0px;">
-                     </div>
-                     <div class="character-name">Winslow Schott</div>
-              </div>
-              <span>Winslow Schott est un programmeur et travaille avec Kara Danvers à CatCo.</span></a>
+            $req->execute([
+                      'serie_id' => $serie_id
+                    ]);
+            while($data = $req->fetch()){ ?>
 
-              <a href=""><div id="characters">
-                     <div class="rondperso" style="background:url(img/img_supergirl/hank.png) no-repeat 0px 0px;">
-                     </div>
-                     <div class="character-name">Hank Henshaw</div>
-              </div>
-              <span>Hank Henshaw était le Directeur de la D.E.O., une organisation secrète qui recherche des êtres venus de la bordure extérieur. Lors d'une mission avec le Dr. Jeremiah Danvers, il fut tué.</span></a>
+    <a href=""><div id="characters">
+      <div class="rondperso" style="background:url(img/img_supergirl/<?php echo $data['image_name']; ?>) no-repeat 0px 0px;">
+      </div>
+      <div class="character-name"><?php echo $data['name']; ?></div>
+    </div>
+    <span><?php echo $data['description']; ?></span></a>
 
-              <a href=""><div id="characters">
-                     <div class="rondperso" style="background:url(img/img_supergirl/cat.png) no-repeat 0px 0px;">
-                     </div>
-                     <div class="character-name">Cat Grant</div>
-              </div>
-              <span>Cat Grant est la fondatrice de CatCo. Son assistante est Kara Danvers.</span></a>
+    <?php } ?>
 
 
 

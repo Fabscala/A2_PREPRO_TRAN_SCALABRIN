@@ -29,30 +29,28 @@ if (isset($_SESSION["id"])) {
 	<div id="admin-content">
 		<h3> Administration </h3>
 
-		<a href="arrow-panel.php">
-			<div id="arrow-admin" class="serie-section-index">
-				<p><span>the</span> arrow</p>
-			</div>
-		</a>
+	<?php 
 
-		<a href="flash-panel.php">
-			<div id="flash-admin" class="serie-section-index">
-				<p><span>the</span> flash</p>
-			</div>
-		</a>
+        if(isset($_GET["id"])) {
+            $id = htmlspecialchars($_GET["id"]);
 
-		<a href="lot-panel.php">
-			<div id="lot-admin" class="serie-section-index">
-				<p class="higher-text">legend's <span>of</span></p> <p class="lower-text">tomorrow</p>
-			</div>
-		</a>
+            $request = $db->prepare("SELECT name, id FROM characters WHERE serie_id = :id");
 
-		<a href="supergirl-panel.php">
-			<div id="supergirl-admin" class="serie-section-index">
-				<p>supergirl</p>
-			</div>
-		</a>
+            $request->execute(array("id" => $id));
 
+            while ($data = $request->fetch()){
+    ?>
+
+	<div id="characters-list"><a href="edit_character.php?id=<?php echo $data['id']; ?>">- <?php echo $data['name']; ?></a></div>
+
+    <?php 
+            }
+        }    
+        else {
+            echo '<div style="font-family: Roboto; text-align: center; font-size: 20px; color: red;">ID non spécifié !</div>';
+        }
+
+    ?>
 
 	</div>
 	
