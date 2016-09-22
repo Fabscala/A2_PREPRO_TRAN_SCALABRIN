@@ -537,6 +537,36 @@ h3 {
   float: right;
 }
 
+footer {
+  font-family: 'Roboto';
+  font-variant: small-caps;
+  font-size: 15px;
+}
+
+#textfooter {
+  display: inline-block;
+  margin-left: 20Px;
+}
+
+#hearticon {
+  margin-left: 4px;
+  display: inline-block;
+  width: 3%;
+}
+
+.footer-back {
+  background-color: #95a5a6;
+}
+
+.footer-icons {
+  padding: 0px 0px 0px 20px;
+}
+
+#socialicon {
+  display: inline-block;
+  width: 3%;
+}
+
 body {
   margin: 0;
   padding: 0;
