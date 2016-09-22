@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'thecw';
 $user = 'root';
-$pass = 'root';
+$pass = '';
 
 
 try{
