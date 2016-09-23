@@ -23,7 +23,7 @@
 				</div>
 
 					    <p class="textfooter">Coded with<img src="https://freeiconshop.com/files/edd/heart-compact-solid.png" id="hearticon"> by : Tran Kevin and Scalabrin Fabien</p>
-  						<p class="textfooter" id="email">Email Adress : CwTeam@gmail.com</p>
+  						<p class="textfooter" id="email">Contact Us : CwTeam@gmail.com</p>
 
 
 		</footer>
